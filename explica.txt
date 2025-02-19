@@ -1,0 +1,1 @@
+Colocar no dashboar os campos: Descrição, Valor, Data Compra, Categoria e Local da Compra
