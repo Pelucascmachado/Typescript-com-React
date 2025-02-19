@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import { Routes } from './src/routes';
-
-export default function App() {
+export function Dashboard() {
   return (
     <View style={styles.container}>
-      <Routes />
+      <Text>Dashboard</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -14,10 +12,9 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     // backgroundColor: '#fff',
-    backgroundColor: 'blue',
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
